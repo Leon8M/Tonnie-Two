@@ -32,7 +32,7 @@ import Card from "./Card";
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Projects</h2>
+      <h2 style={{ textAlign: "center" }}>What do I bring to the table?</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <Card />
       </div>

@@ -2,22 +2,25 @@ import React from "react";
 
 const skills = [
   {
-    skill: "HTML5",
+    skill: "Tableau",
   },
   {
-    skill: "CSS3",
+    skill: "Excel",
   },
   {
-    skill: "Javascript",
+    skill: "MySQL",
   },
   {
-    skill: "Git",
+    skill: "PowerBi",
   },
   {
-    skill: "Python",
+    skill: "R",
   },
   {
-    skill: "React.js",
+    skill: "Google Spreadsheet",
+  },
+  {
+    skill: "Teammate Analytics",
   },
 ];
 

@@ -17,27 +17,24 @@ import React from "react";
  * freely use on your site.
  */
 
-import image from "../../static/images/gg.jpg";
-
-const imageAltText = "purple and blue abstract background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a web designer and app developer, striving for excellence in every project. My passion lies in creating visually stunning and responsive websites and applications, always with your satisfaction in mind.";
+  "Actuary turned Changemaker | Valued pensions, led software launch, built finance teams, slashed debt, exposed fraud, mastered sustainable loans. I thrive on driving impact.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Unit testing",
-  "Mobile user interfaces",
-  "App Development",
+  "Actuarial Valuations & Predictions",
+  "Project Management",
+  "Financial Analysis",
+  "Risk Management & Analysis",
+  "Financial & Compliance Audit",
+  "Sustainable Finance",
 ];
 
 /**
@@ -46,13 +43,11 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Hello, I'm an aspiring full-stack developer, passionate about creating visually stunning websites and apps. My relentless pursuit of perfection ensures that every project reaches its full potential. My primary goal is your satisfaction, and I'm dedicated to bringing your vision to life, pixel by pixel. Join me on this exciting journey of digital transformation.";
+  "Change Agent Analyst seeking impactful role. Master's in Finance. Expertise in risk, valuations, audits, and data analysis. Drive business growth through insightful communication of financial data. Adaptable, methodical, and ready to tackle complex challenges. Let's catalyze your success!";
 
 const About = () => {
   return (
     <section className="padding" id="about">
-      <img className="background" src={image} 
-      alt={imageAltText} />
       <div
         style={{
           backgroundColor: "white",

@@ -47,26 +47,9 @@ const Card = () => {
 <div className="cards">
           {projectList.map((project) => (
             <div className="card" key={project.title}>
-              
-                <img
-                src={project.port_image}
-                style={{
-                height: "90%",
-                width: "100%",
-                objectFit: "cover",
-                animation: "1s ease-out 0s 1 slideIn",
-                }}
-                alt=""
-                />
               <div className="xter">
               <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
                <p className="small">{project.description}</p>
-               {project.url && (
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h4>Website</h4>
-              </a>
-              )}
-              <a href={project.github} className="link_git"><h4>Github</h4></a>
               </div>
             </div>
           ))}

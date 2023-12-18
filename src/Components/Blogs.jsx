@@ -28,26 +28,16 @@ import React from "react";
  */
 const projectList = [
   {
-    title: "The Lazy Revolution: How Innovation Shapes Our Lives and Our Laziness",
+    title: "What is the most critical point in the journey towards success?",
     description: "Blog on how the rise in technological innovation influences our way of life.",
-    url: "https://medium.com/@Leonmunene/the-lazy-revolution-how-innovation-shapes-our-lives-and-our-laziness-5df9239b8cee",
+    url: "https://medium.com/@anthonykimathi2007/the-unfolding-story-of-zoom-d5e3f6c4b38",
   },
   {
     title:
-      "How Software engineers can decrease the chance of ones job being replaced by AI in the near or far future",
+      "Now or Later? Curriculum Reform In Kenya is Inevitable",
     description:
       "Blog on how software engineers can secure their jobs during this technological age.",
-    url: "https://medium.com/@Leonmunene/how-software-engineers-can-decrease-the-chance-of-ones-job-being-replaced-by-ai-in-the-near-or-far-4d0fb84dc0a1",
-  },
-  {
-    title: "Nurturing My Love for Science: From Curiosity to Exploration",
-    description: "Join me in my journey through science.",
-    url: "https://medium.com/@Leonmunene/the-lazy-revolution-how-innovation-shapes-our-lives-and-our-laziness-5df9239b8cee",
-  },
-  {
-    title: "Music, The Beauty of its Existence",
-    description: "My love of music personified",
-    url: "https://medium.com/@Leonmunene/the-lazy-revolution-how-innovation-shapes-our-lives-and-our-laziness-5df9239b8cee",
+    url: "https://medium.com/@anthonykimathi2007/now-or-later-curriculum-reform-in-kenya-is-inevitable-7e4017bbce78",
   },
 ];
 const Blog = () => {

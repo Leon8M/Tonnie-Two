@@ -24,7 +24,7 @@ import image from "../../static/images/tonnie.jpeg";
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image}
+      <img className="home_pic" src={image}
       alt="" />
       <div
         style={{
